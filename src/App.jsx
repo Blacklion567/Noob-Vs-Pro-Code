@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import AdvanceUpdateState from "./components/5-React-State-Update/AdvanceUpdateState";
+// import NoobUpdateState from "./components/5-React-State-Update/NoobUpdateState";
+// import ProUpdateState from "./components/5-React-State-Update/ProUpdateState";
+// import AdvanceUseEffect from "./components/6-React-use-effect/AdvanceUseEffect";
+// import NoobUseEffect from "./components/6-React-use-effect/NoobUseEffect";
+// import ProUseEffect from "./components/6-React-use-effect/ProUseEffect";
+
+import AdvanceTodos from "./components/7-React-lists/AdvanceTodos";
+import ProTodos from "./components/7-React-lists/ProTodos";
+// import NoobTodos from "./components/7-React-lists/NoobTodos";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* <NoobUpdateState />
+      <AdvanceUpdateState />
+      <ProUpdateState />
+      <NoobUseEffect />
+      <AdvanceUseEffect />
+      <ProUseEffect />
+      <NoobTodos />*/}
+      <AdvanceTodos />
+      <ProTodos />
+
     </>
-  )
+  );
+
 }
 
-export default App
+export default App;
