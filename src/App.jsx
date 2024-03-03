@@ -5,10 +5,9 @@
 // import NoobUseEffect from "./components/6-React-use-effect/NoobUseEffect";
 // import ProUseEffect from "./components/6-React-use-effect/ProUseEffect";
 
-import AdvanceTodos from "./components/7-React-lists/AdvanceTodos";
-import ProTodos from "./components/7-React-lists/ProTodos";
+import AdvanceTodos from './components/7-React-lists/AdvanceTodos';
+import ProTodos from './components/7-React-lists/ProTodos';
 // import NoobTodos from "./components/7-React-lists/NoobTodos";
-
 
 function App() {
   return (
@@ -20,12 +19,11 @@ function App() {
       <AdvanceUseEffect />
       <ProUseEffect />
       <NoobTodos />*/}
+
       <AdvanceTodos />
       <ProTodos />
-
     </>
   );
-
 }
 
 export default App;
